@@ -1,0 +1,27 @@
+button {
+  padding: 1rem 2rem;
+  background-color: #6a5acd;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+button.animate {
+  transform: scale(1.2);
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+button.animate {
+  transform: scale(1.2);
+  background-color: #ff6347;
+}
+button:hover {
+  background-color: #4caf50;
+  color: white;
+}
