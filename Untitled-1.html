@@ -3,12 +3,23 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Animation Project</title>
+  <title>Enhanced Animations</title>
   <link rel="stylesheet" href="button.css" />
 </head>
 <body>
+  <h1 id="title">Hello, World!</h1>
+<label for="animationSelect">Choose an animation:</label>
+<select id="animationSelect">
+    <option value="fade">Fade</option>
+    <option value="slide">Slide</option>
+    <option value="bounce">Bounce</option>
+  </select>
+
+  <button id="triggerBtn">Animate!</button>
+
   <button id="animateBtn">Click Me!</button>
   <p id="counter">Button clicked: 0 times</p>
+
   <script src="script.js"></script>
 </body>
 </html>
